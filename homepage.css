@@ -1,0 +1,84 @@
+#viewport{
+  min-height:100%;
+  position: relative;
+  width:100%
+}
+
+.container{
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a{
+  padding: 6px;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.left{
+float: left;
+}
+
+.right{
+float: right;
+}
+
+
+
+.upper{
+height: 20px;
+left: 0;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  
+}
+
+.bar{
+  
+  margin-left: 270px;
+  margin-right: auto;
+  margin-top: 20px;
+  
+}
+.bar input[type=text]{
+  width: 65%;
+  padding: 14px 20px;
+  border-radius: 30px;
+  border: 1px solid rgb(221, 221, 221);
+}
+
+.mid{
+
+height: 100px;
+text-align: center;
+padding-top: 20px;
+display: block;
+
+}
+
+.mid a{
+  font-size: 17px;
+}
+
+.bottom{
+  background-color: rgb(238, 238, 238);
+  
+  padding-top: 20px;
+  padding-bottom: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0; 
+  width: 100%;
+  
+}
+
+.bottom a{
+  color: gray;
+}
